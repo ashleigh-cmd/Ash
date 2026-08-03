@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Untapped — Candidate Resource Hub</title>
-<meta name="description" content="Everything you need before your first call with Untapped — who we are, how our process works, and how to prepare.">
+<title>Candidate Resource Hub | Untapped</title>
+<meta name="description" content="Everything you need before your first call with Untapped: who we are, how our process works, and how to prepare.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23101820'/%3E%3Cellipse cx='50' cy='50' rx='34' ry='24' fill='none' stroke='white' stroke-width='6'/%3E%3Ctext x='50' y='58' font-family='Arial' font-size='30' fill='white' text-anchor='middle'%3Eun%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -134,6 +134,11 @@
     font-size:0.62rem; font-weight:800; letter-spacing:0.02em;
     flex-shrink:0;
   }
+  .logo-subtitle{
+    font-weight:500; font-size:0.82rem; color:var(--ink-soft);
+    padding-left:0.7rem; margin-left:0.1rem; border-left:1px solid var(--line);
+  }
+  @media (max-width:600px){ .logo-subtitle{ display:none; } }
   .site-nav ul{
     list-style:none; display:flex; gap:1.85rem; margin:0; padding:0;
   }
@@ -326,7 +331,7 @@
     padding:1rem 0; border-bottom:1px solid var(--line);
     display:flex; gap:0.9rem; font-size:1rem;
   }
-  .ask-list li::before{ content:'—'; color:var(--red); font-weight:700; flex-shrink:0; }
+  .ask-list li::before{ content:'•'; color:var(--red); font-weight:700; flex-shrink:0; }
 
   .checklist{
     list-style:none; margin:0; padding:1.5rem;
@@ -413,6 +418,7 @@
     <a class="logo" href="#top">
       <span class="logo-mark" aria-hidden="true">un</span>
       untapped
+      <span class="logo-subtitle">Candidate Resource Hub</span>
     </a>
     <nav class="site-nav" id="siteNav">
       <ul>
@@ -438,10 +444,10 @@
   <section class="hero">
     <div class="hero-glow" aria-hidden="true"></div>
     <div class="wrap hero-inner">
-      <p class="eyebrow eyebrow-light">Before your first call</p>
-      <h1>Welcome to Untapped.</h1>
-      <p class="hero-tagline">If you're here, it's because we think you're a strong fit for what's next.</p>
-      <p class="hero-sub">Everything you need before your first call — who we are, how our process works, and how to prepare.</p>
+      <p class="eyebrow eyebrow-light">Untapped · Talent Experience</p>
+      <h1>Welcome to the Candidate Resource Hub.</h1>
+      <p class="hero-tagline">If you're here, it's because we think you're great.</p>
+      <p class="hero-sub">Everything you need before your first call: who we are, how our process works, and how to prepare.</p>
       <div class="hero-actions">
         <a class="btn btn-ghost" href="https://tryuntapped.com" target="_blank" rel="noopener">Visit tryuntapped.com ↗</a>
       </div>
@@ -495,8 +501,12 @@
           <h2>Redefine opportunity, globally.</h2>
         </div>
         <div class="about-body reveal">
-          <p>We match skilled professionals with international companies — pairing people who stand out with roles, pay and career paths they might not otherwise reach. Every placement starts the same way: a real conversation, not a transaction. That's true of the recruiter you're speaking with now, and every step from here.</p>
-          <a class="btn btn-ghost" href="https://tryuntapped.com" target="_blank" rel="noopener">More about Untapped ↗</a>
+          <p>We match skilled professionals with international companies, pairing people who stand out with roles, pay and career paths they might not otherwise reach. Every placement starts the same way: a real conversation, not a transaction. That's true of the recruiter you're speaking with now, and every step from here.</p>
+          <p>This Hub is the first part of our growing Talent Experience function that we're building, so every candidate gets the same standard of preparation and support with whichever recruiter they're working with.</p>
+          <div style="display:flex; flex-wrap:wrap; gap:1rem;">
+            <a class="btn btn-ghost" href="https://tryuntapped.com" target="_blank" rel="noopener">More about Untapped ↗</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/company/tryuntapped/" target="_blank" rel="noopener">Follow us on LinkedIn ↗</a>
+          </div>
         </div>
       </div>
     </div>
@@ -507,43 +517,43 @@
     <div class="wrap">
       <div class="section-head reveal">
         <p class="eyebrow">The stages</p>
-        <h2>What to expect, stage by stage</h2>
-        <p class="lede">Five checkpoints, in order. This is roughly where you sit in the process at any given point.</p>
+        <h2>What happens, step by step</h2>
+        <p class="lede">Five steps, in order, from your first conversation with us through to meeting the client.</p>
       </div>
       <ol class="timeline reveal">
         <li>
           <span class="step-num">01</span>
           <div>
-            <h3>English &amp; communication</h3>
-            <p>A short check of your spoken and written English, plus typing.</p>
+            <h3>Screening interview</h3>
+            <p>Your first conversation with an Untapped recruiter, covering your experience and what you're looking for next.</p>
           </div>
         </li>
         <li>
           <span class="step-num">02</span>
           <div>
-            <h3>Working style</h3>
-            <p>A behavioural assessment that looks at how you communicate and operate day-to-day.</p>
+            <h3>Psychometric assessment</h3>
+            <p>A short test covering English, typing, cognitive ability and numerical reasoning.</p>
           </div>
         </li>
         <li>
           <span class="step-num">03</span>
           <div>
-            <h3>Skills check</h3>
-            <p>A closer look at the specific hard and soft skills the role needs.</p>
+            <h3>Shortlisting</h3>
+            <p>Your recruiter reviews the conversation and decides which clients to put you forward for.</p>
           </div>
         </li>
         <li>
           <span class="step-num">04</span>
           <div>
-            <h3>Meet the team</h3>
-            <p>A conversation with Untapped's leadership, to confirm overall fit.</p>
+            <h3>First client interview</h3>
+            <p>A standard conversation with the client's team.</p>
           </div>
         </li>
         <li>
           <span class="step-num">05</span>
           <div>
-            <h3>Client case study</h3>
-            <p>A short, real-world task with the client, done under a bit of time pressure.</p>
+            <h3>Second client interview</h3>
+            <p>This round is typically more technical, and your recruiter will brief you on specifics beforehand.</p>
           </div>
         </li>
       </ol>
@@ -572,11 +582,11 @@
           </div>
           <div class="eor-row">
             <span class="eor-tag tag-client">Employer</span>
-            <p>Directs your work and goals — who you report to day-to-day.</p>
+            <p>Directs your work and goals, and is who you report to day-to-day.</p>
           </div>
           <div class="eor-row">
             <span class="eor-tag tag-eor">EOR partner</span>
-            <p>Employs you locally — contract, PAYE, UIF and compliance.</p>
+            <p>Employs you locally: contract, PAYE, UIF and compliance.</p>
           </div>
           <div class="fact-strip">
             <span>Remote, from South Africa</span>
@@ -599,8 +609,8 @@
 
       <div class="prep-grid reveal">
         <div class="prep-item">
-          <h3>Nail your introduction</h3>
-          <p>Keep it to 1–2 minutes: who you are, your key achievements, and why you're interested in the opportunity.</p>
+          <h3>Prepare a strong introduction</h3>
+          <p>Keep it to 1 to 2 minutes: who you are, your key achievements, and why you're interested in the opportunity.</p>
         </div>
         <div class="prep-item">
           <h3>Use real numbers</h3>
@@ -611,22 +621,37 @@
           <p>Test your technology, join early, choose a quiet, well-lit space, and keep a few notes nearby.</p>
         </div>
         <div class="prep-item">
-          <h3>Own any gaps</h3>
+          <h3>Address any gaps confidently</h3>
           <p>If you lack experience in one area, acknowledge it confidently and explain how you'd learn or adapt.</p>
         </div>
       </div>
 
-      <h3 style="font-family:var(--sans); font-weight:800; margin-bottom:0.75rem;">What to expect</h3>
-      <p class="lede" style="margin-bottom:1rem;">Every conversation is different, but most first interviews cover similar ground.</p>
-      <ul class="ask-list reveal">
-        <li>Your background and experience</li>
-        <li>Your key achievements</li>
-        <li>Your career goals</li>
-        <li>Your motivation for moving roles</li>
-      </ul>
+      <h3 style="font-family:var(--sans); font-weight:800; margin-bottom:0.75rem;">What to expect in your first interviews</h3>
+      <p class="lede" style="margin-bottom:1.5rem;">The recruiter call and the client interview serve different purposes, so it helps to know what each one is actually for.</p>
+      <div class="two-col">
+        <div>
+          <h3 style="font-family:var(--sans); font-weight:700; font-size:1.02rem;">With your Untapped recruiter</h3>
+          <p class="lede" style="margin-bottom:1rem;">A relaxed, two-way conversation to understand your fit before any client is involved.</p>
+          <ul class="ask-list">
+            <li>Your background and experience</li>
+            <li>Your key achievements</li>
+            <li>Your career goals</li>
+            <li>Your motivation for moving roles</li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="font-family:var(--sans); font-weight:700; font-size:1.02rem;">With the client</h3>
+          <p class="lede" style="margin-bottom:1rem;">Typically two rounds, occasionally three. Your recruiter will always share more specific preparation tailored to that client beforehand, but here's a general overview.</p>
+          <ul class="ask-list">
+            <li>First round: a 30-minute video call, similar in tone to your recruiter conversation but more numbers-driven, so it helps to have your billing and KPI figures ready</li>
+            <li>Second round: 45 minutes to an hour, usually with the hiring manager again and sometimes a senior team member too</li>
+            <li>The second round is more technical, so expect technical questions in written or verbal form</li>
+          </ul>
+        </div>
+      </div>
 
       <h3 style="font-family:var(--sans); font-weight:800; margin:2.5rem 0 0.75rem;">Questions worth asking them</h3>
-      <p class="lede" style="margin-bottom:1rem;">Prepare thoughtful questions about success in the role, team expectations, and next steps. Remember — an interview is a two-way conversation.</p>
+      <p class="lede" style="margin-bottom:1rem;">Prepare thoughtful questions about success in the role, team expectations, and next steps. Remember, an interview is a two-way conversation.</p>
 
       <h3 style="font-family:var(--sans); font-weight:800; margin:2.5rem 0 1rem;">Final checklist</h3>
       <ul class="checklist reveal">
@@ -649,16 +674,16 @@
       <div class="faq-list reveal">
         <details open>
           <summary>What happens after my first call?<span class="faq-plus"></span></summary>
-          <p>Most candidates start with a short psychometric assessment — covering English, typing, cognitive ability and numerical reasoning. It's there to confirm your English fluency, since most of our clients are UK-based, and to check that remote work is genuinely the right fit for you, since the setup doesn't suit everyone.</p>
-          <p>From there, your recruiter reviews the conversations they've had and shortlists who they'd like to present to each client. If a client wants to meet you, you'll be booked in for the next round. There are a minimum of two rounds with the client: the first is fairly standard, the second is typically a bit more technical. Your recruiter will go into more depth on what to expect in your screening call.</p>
+          <p>Next is a short psychometric assessment covering English, typing, cognitive ability and numerical reasoning. It confirms your English fluency, since most of our clients are UK-based, and checks that remote work is genuinely the right fit for you.</p>
+          <p>Your recruiter then reviews the conversation and shortlists who to present to each client. If a client wants to meet you, you'll move into two client rounds: the first fairly standard, the second typically more technical. Your recruiter will brief you fully before each one.</p>
         </details>
         <details>
           <summary>Will I be employed by Untapped, the client, or the EOR partner?<span class="faq-plus"></span></summary>
-          <p>Day-to-day, you work for the client. Your formal employment sits with our EOR partner, and Untapped manages the relationship throughout — so there's a single point of contact if anything comes up.</p>
+          <p>Day-to-day, you work for the client. Your formal employment sits with our EOR partner, and Untapped manages the relationship throughout, so there's a single point of contact if anything comes up.</p>
         </details>
         <details>
           <summary>What hours will I be working?<span class="faq-plus"></span></summary>
-          <p>Most roles are aligned to UK working hours, which in South Africa typically means finishing around 6 to 6:30pm.</p>
+          <p>Most roles are aligned to UK working hours, which in South Africa typically means finishing around 6 to 6.30pm.</p>
         </details>
         <details>
           <summary>How long does the process usually take?<span class="faq-plus"></span></summary>
@@ -670,11 +695,11 @@
         </details>
         <details>
           <summary>What happens if I'm not right for this particular role?<span class="faq-plus"></span></summary>
-          <p>We'll be upfront with you. If it's not a fit, we'll tell you why, and where relevant, keep you in mind for other roles that suit your experience.</p>
+          <p>We will always be honest with you. If it's not a fit, we'll explain why, and where relevant, keep you in mind for other roles that suit your experience.</p>
         </details>
         <details>
           <summary>What happens after I start?<span class="faq-plus"></span></summary>
-          <p>Your recruiter checks in with you after you start, separately from the client relationship, so there's always someone in your corner.</p>
+          <p>Your recruiter checks in with you after you start, separately from the client relationship, so you always have someone to turn to.</p>
         </details>
       </div>
     </div>
@@ -719,6 +744,11 @@
           <p>See what else is live right now, beyond this conversation.</p>
           <a href="https://my.recruitwithatlas.com/tryuntappedcom/jobs" target="_blank" rel="noopener">View open roles ↗</a>
         </div>
+        <div class="contact-card">
+          <h3>Follow us on LinkedIn</h3>
+          <p>New roles and updates from the Untapped team.</p>
+          <a href="https://www.linkedin.com/company/tryuntapped/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
       </div>
     </div>
   </section>
@@ -740,7 +770,7 @@
       <li><a href="https://tryuntapped.com" target="_blank" rel="noopener">tryuntapped.com</a></li>
     </ul>
   </div>
-  <div class="wrap footer-fine">© 2026 Untapped. This page prepares you before your first call — it doesn't collect any personal information.</div>
+  <div class="wrap footer-fine">© 2026 Untapped. This page prepares you before your first call and doesn't collect any personal information.</div>
 </footer>
 
 <script>
